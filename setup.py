@@ -43,17 +43,17 @@ def find_version(*file_paths):
     raise RuntimeError("Unable to find version string.")
 
 
-curdir = dirname(__file__)
-with io.open(join(curdir, "README.md"), encoding="utf-8") as fd:
-    readme = fd.read()
-with io.open(join(curdir, "CHANGELOG.md"), encoding="utf-8") as fd:
-    changelog = fd.read()
+# curdir = dirname(__file__)
+# with io.open(join(curdir, "README.md"), encoding="utf-8") as fd:
+#     readme = fd.read()
+# with io.open(join(curdir, "CHANGELOG.md"), encoding="utf-8") as fd:
+#     changelog = fd.read()
 
 setup(
     name='buildozer',
     version=find_version('buildozer', '__init__.py'),
     description='Generic Python packager for Android / iOS and Desktop',
-    long_description=readme + "\n\n" + changelog,
+    # long_description=readme + "\n\n" + changelog,
     long_description_content_type='text/markdown',
     author='Mathieu Virbel',
     author_email='mat@kivy.org',
