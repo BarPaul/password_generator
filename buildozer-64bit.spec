@@ -43,10 +43,10 @@ requirements = python3,kivy==2.0.0,kivymd,https://github.com/kivymd/KivyMD/archi
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/data/logo/presplash512okmin.png
+presplash.filename = %(source.dir)s/favicon.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/data/logo/logo512min.png
+icon.filename = %(source.dir)s/favicon.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = all
